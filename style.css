@@ -15,9 +15,19 @@ p {
     color:white;
 }
 
+
 @media (max-width: 800px) {
     
-    html{
+
+button {
+    color:transparent;
+    background-color: transparent;
+    border-style: none;
+    align-content: center;
+    text-align:center;
+}
+    
+html{
     border: solid;
     border-width:1px;
     height:80%;
@@ -30,7 +40,7 @@ p {
 
 }
     
-  .row {
+ .row {
     padding-top:5%;
     width: auto;
     height:50%;
@@ -38,12 +48,13 @@ p {
     margin-bottom:4%;
   }
     
-    h2
+h2
 {
     color:Black;
     font-family:Times;
     font-size:120%;
     line-height: 250%;
+    text-align: center;
 }
 
 h3
@@ -55,11 +66,25 @@ h3
     margin-left:5%;
     margin-right:5%;
     margin-bottom:3%;
+    
+}
+    
+h4
+{
+    color:Black;
+    font-family:Times;
+    font-size:95%;
+    line-height: 130%;
+    margin-left:0%;
+    margin-right:0%;
+    margin-bottom:3%;
+    text-align: center;
+    
 }
 
 #r1 {
     text-align:left;
-    padding-left:30px;
+    padding-left:0px;
     border-style:solid;
     border-color:black;
     border-width:1px;
@@ -68,6 +93,11 @@ h3
     height:50px;
     margin-bottom:20px;
 }
+    
+#r2 {
+    padding-left:0%;
+}
+
 
 .row {
     width: auto;
@@ -81,7 +111,15 @@ h3
 
 @media (min-width: 800px) {
     
-    html{
+    
+    
+button {
+    color:transparent;
+    background-color: transparent;
+    border-style: none;
+}
+    
+html{
     border: solid;
     border-width:1px;
     height:88%;
@@ -93,18 +131,18 @@ h3
         position:fixed;
 }
     
-      .row {
+.row {
     padding-top:1%;
     width:auto;
     height:50%;
     margin-top:2%; 
     margin-bottom:4%;
   }
-       #due {
+#due {
     border-radius:110%;
     }
     
-    h2
+h2
 {
     color:Black;
     font-family:Times;
@@ -122,6 +160,17 @@ h3
     margin-right:2%;
     margin-bottom:1%
 }
+    
+h4
+{
+    color:Black;
+    font-family:Times;
+    font-size:90%;
+    line-height: 130%;
+    margin-left:5%;
+    margin-right:5%;
+    margin-bottom:3%;
+}
 
 #r1 {
     text-align:left;
@@ -133,6 +182,10 @@ h3
     width:auto;
     height:50px;
     margin-bottom:20px;
+}
+    
+#r2 {
+    padding-left:5%;
 }
 
 .row {
